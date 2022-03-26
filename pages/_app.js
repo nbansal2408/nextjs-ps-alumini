@@ -11,7 +11,8 @@ export default function MyApp() {
   console.log('MyApppp');
 
   useEffect(() => {
-    const data = {'hi':'hj'};
+    const data = {'loginId': 'sumkumar',
+    'password': 'Password@123'};
     console.log("Use effect called");
     console.log("data", sampleAPi(data));
 })
