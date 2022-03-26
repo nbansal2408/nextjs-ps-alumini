@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { HeaderSection } from './header-section';
 import MainContent from './main-content';
-import { sampleAPi } from '../app/apis/sampleApi';
+import { loginApi } from '../app/apis/loginApi';
 
 export default function MyApp() {
   console.log('MyApppp');
@@ -14,7 +14,7 @@ export default function MyApp() {
     const data = {'loginId': 'sumkumar',
     'password': 'Password@123'};
     console.log("Use effect called");
-    console.log("data", sampleAPi(data));
+    console.log("data", loginApi(data));
 })
   return (
     <div>
